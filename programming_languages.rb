@@ -6,7 +6,6 @@ def reformat_languages(languages)
       new_hash[l][:style] ||= []
       new_hash[l][:style] << k
     end
-    puts new_hash
   end
   new_hash
 end
